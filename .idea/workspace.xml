@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="380ecf17-dc0d-4dc9-82f5-196de84d9003" name="Default" comment="" />
+    <ignored path="snow_final1.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="snow_final1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pad.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pad.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="166" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="3510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ipad.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/ipad.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="448" column="33" selection-start="13679" selection-end="13679" vertical-scroll-proportion="0.0" vertical-offset="6720" max-vertical-offset="30495">
+              <folding>
+                <marker date="1419057817000" expanded="false" signature="22739:22773" placeholder="..." />
+                <marker date="1419057817000" expanded="false" signature="23083:23139" placeholder="..." />
+                <marker date="1419057817000" expanded="false" signature="23400:23461" placeholder="..." />
+                <marker date="1419057817000" expanded="false" signature="23723:23783" placeholder="..." />
+                <marker date="1419057817000" expanded="false" signature="24044:24105" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1968" column="53" selection-start="66851" selection-end="66851" vertical-scroll-proportion="0.36745256" vertical-offset="28881" max-vertical-offset="31170">
+              <folding>
+                <marker date="1419485052000" expanded="false" signature="23836:23870" placeholder="..." />
+                <marker date="1419485052000" expanded="false" signature="24121:24177" placeholder="..." />
+                <marker date="1419485052000" expanded="false" signature="24379:24440" placeholder="..." />
+                <marker date="1419485052000" expanded="false" signature="24643:24703" placeholder="..." />
+                <marker date="1419485052000" expanded="false" signature="24905:24966" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pad.html" />
+        <option value="$PROJECT_DIR$/js/ipad.js" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1680" />
+    <option name="y" value="22" />
+    <option name="width" value="1080" />
+    <option name="height" value="1898" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snow_final1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snow_final1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snow_final1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snow_final1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snow_final1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Mushroom.rar Folder" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="380ecf17-dc0d-4dc9-82f5-196de84d9003" name="Default" comment="" />
+      <created>1419056913029</created>
+      <updated>1419056913029</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1680" y="22" width="1080" height="1898" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32544938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="166" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ipad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="448" column="33" selection-start="13679" selection-end="13679" vertical-scroll-proportion="0.0" vertical-offset="6720" max-vertical-offset="30495">
+          <folding>
+            <marker date="1419057817000" expanded="false" signature="22739:22773" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23083:23139" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23400:23461" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23723:23783" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="24044:24105" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1999" column="44" selection-start="67877" selection-end="67877" vertical-scroll-proportion="0.0" vertical-offset="29406" max-vertical-offset="31170">
+          <folding>
+            <marker date="1419485052000" expanded="false" signature="23836:23870" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24121:24177" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24379:24440" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24643:24703" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24905:24966" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="166" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ipad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="448" column="33" selection-start="13679" selection-end="13679" vertical-scroll-proportion="0.0" vertical-offset="6720" max-vertical-offset="30495">
+          <folding>
+            <marker date="1419057817000" expanded="false" signature="22739:22773" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23083:23139" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23400:23461" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23723:23783" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="24044:24105" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1999" column="56" selection-start="67889" selection-end="67889" vertical-scroll-proportion="0.0" vertical-offset="29457" max-vertical-offset="31170">
+          <folding>
+            <marker date="1419485052000" expanded="false" signature="23836:23870" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24121:24177" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24379:24440" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24643:24703" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24905:24966" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="166" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ipad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="448" column="33" selection-start="13679" selection-end="13679" vertical-scroll-proportion="0.0" vertical-offset="6285" max-vertical-offset="30495">
+          <folding>
+            <marker date="1419057817000" expanded="false" signature="22739:22773" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23083:23139" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23400:23461" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23723:23783" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="24044:24105" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1229" column="30" selection-start="42957" selection-end="42957" vertical-scroll-proportion="0.0" vertical-offset="18200" max-vertical-offset="31170">
+          <folding>
+            <marker date="1419485052000" expanded="false" signature="23836:23870" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24121:24177" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24379:24440" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24643:24703" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24905:24966" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="166" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ipad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="688" column="28" selection-start="22575" selection-end="22575" vertical-scroll-proportion="0.0" vertical-offset="10065" max-vertical-offset="30495">
+          <folding>
+            <marker date="1419057817000" expanded="false" signature="22739:22773" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23083:23139" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23400:23461" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23723:23783" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="24044:24105" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="166" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="3510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ipad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="448" column="33" selection-start="13679" selection-end="13679" vertical-scroll-proportion="0.0" vertical-offset="6285" max-vertical-offset="30495">
+          <folding>
+            <marker date="1419057817000" expanded="false" signature="22739:22773" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23083:23139" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23400:23461" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="23723:23783" placeholder="..." />
+            <marker date="1419057817000" expanded="false" signature="24044:24105" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1968" column="53" selection-start="66851" selection-end="66851" vertical-scroll-proportion="0.36745256" vertical-offset="28881" max-vertical-offset="31170">
+          <folding>
+            <marker date="1419485052000" expanded="false" signature="23836:23870" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24121:24177" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24379:24440" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24643:24703" placeholder="..." />
+            <marker date="1419485052000" expanded="false" signature="24905:24966" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

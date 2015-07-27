@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GODIVA 歌帝梵</title>
+	<meta name="viewport" content="target-densitydpi=device-dpi,width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,minimal-ui" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/scrollbar.css" />
+	<!--<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>-->
+</head>
+<body>
+<div id="rotatetipcon"></div>
+<div id="pano" style="width:100%;height:100%;">
+	<noscript><table style="width:100%;height:100%;"><tr style="vertical-align:middle;"><td><div style="text-align:center;">ERROR:<br/><br/>Javascript not activated<br/><br/></div></td></tr></table></noscript>
+</div>
+<!--
+<div id="textcon" style="position:absolute;top:0px;left:0px;z-index:998;">
+	<input type="file"/>
+	<br/>
+	<img id="testimg" style="border:solid 1px #000;"/>
+	<input type="button" value="button" id="testbutton"/>
+</div>
+-->
+<div id="report1" style="position:absolute;top:0;left:0;font-size:2em;color:#fff;z-index:10000"></div>
+<div id="onuploading">
+	<img src="img/loading2.gif" />
+	<span>数据上传中，请稍后</span>
+</div>
+<div id="onprocessing">
+	<img src="img/loading2.gif" />
+	<span>数据处理中，请稍后</span>
+</div>
+<div id="maincontent">
+	<span class="sharebtn"></span>
+	<span class="makecard"></span>
+	<span class="productslist"></span>
+</div>
+<div id="loadingcon">
+	<div class="loadingbg"></div>
+	<div class="bg"></div>
+	<div class="textbg"></div>
+	<div class="tipbgcon"></div>
+	<!--<div class="mask"></div>-->
+	<div class="loadingtip">
+		<div class="innercon"></div>
+		<span class="percentnum"></span>
+	</div>
+	
+	<canvas id="loadingrate"></canvas>
+	<div class="slidercursor">
+		<img src="img/hands.gif"  style="width:100%;"/>
+	</div>
+	
+	<div id="caminfolink"></div>
+</div>
+<div id="listcon">
+	<div class="content">
+		<img class="returnbtn" src="img/returnbtn.png"/>
+		<div class="toppart" style="width:100%;">
+			<span class="couponlink" style="position:absolute;width:32%;left:12.18%;height:20%;bottom:11%;"></span>
+			<a class="pagelink" onclick="_pt_sp_2.push('setTrackEvent,Goumai,Click,guanwang,0')" style="position:absolute;width:37.5%;left:47.65%;height:20%;bottom:11%;" href="http://m.godiva.cn/kvActivity/activity_cmas.htm" target="_blank"></a>
+		</div>
+		<div id="productlist" class="maincon">
+			<div id="scroller" style="text-align:center;"></div>
+		</div>
+	</div>
+	<div class="arrowcon"></div>
+</div>
+<div id="sharelayer">
+	<img class="returnbtn" src="img/returnbtn.png"/>
+	<img src="img/wechattip.png" class="wechattip" style="display:none;"/>
+	<img src="img/sharetext.png"  style="position:absolute;top:25%;left:26%;width:48%;"/>
+	<a class="snsbtncursor sinabtn" target="_blank" href="#" onclick="_pt_sp_2.push('setTrackEvent,Weibo,Click,sinaweibo,0')" style="left:18.75%;"><img class="snsbtn" src="img/sina.png"/></a>
+	<a class="snsbtncursor qzonebtn" target="_blank" href="#" onclick="_pt_sp_2.push('setTrackEvent,Weibo,Click,qqkongjian,0')" style="left:44.53%;"><img class="snsbtn" src="img/qzone.png"/></a>
+	<a class="snsbtncursor tencentbtn" target="_blank" href="#" onclick="_pt_sp_2.push('setTrackEvent,Weibo,Click,tengxunweibo,0')" style="left:69.53%;"><img class="snsbtn" src="img/tencent.png"/></a>
+</div>
+<div id="photolayer">
+	<img class="returnbtn" src="img/returnbtn.png"/>
+	<form method="post" enctype="multipart/form-data" action="base64/newupload1.php" target="ajaxifr" style="position:absolute;width:100%;height:100%;left:0;top:0;">
+		<div class="photocon">
+			<div class="photomc">
+				<img id="selectphoto" src="img/transparent.png" style="width:100%;height:100%;"/>
+				<input type="file" name="file" id="selectfile" accept="image/*" capture="camera" style="width:100%;height:100%;z-index:999;opacity: 0;"/>
+			</div>
+		</div>
+		<input id="submitbtn" type="submit" value="上传" style="display:none;"/>
+		<iframe name="ajaxifr" style="display:none;"></iframe>
+	</form>
+	<div class="skipphoto"></div>
+	<div class="nextncancel">
+		<span class="cancelbtn"></span>
+		<span class="nextrbtn"></span>
+	</div>
+</div>
+<div id="cardlayer">
+	<img class="returnbtn" src="img/returnbtn.png"/>
+	<div class="bg"></div>
+	<div class="frontbg"></div>
+	<input id="TextTo" class="cardtext" value="Dear Friends" maxlength="15" type="text" style="width:37%;left:39%"/>
+	
+	<input id="TextContent" class="cardtext" value="MERRY CHRISTMAS" maxlength="19" type="text" style="width:78%;left:10%;"/>
+	
+	<input id="TextFrom" class="cardtext" value="GODIVA" type="text" maxlength="15" style="width:26%;left:42.18%;"/>
+	
+	<div class="returnnskip">
+		<span class="returnbtn"></span>
+		<span class="skipbtn"></span>
+	</div>
+	<div class="returnncomplete">
+		<span class="returnbtn"></span>
+		<span class="completebtn"></span>
+	</div>
+	<div class="returnnnext">
+		<span class="returnbtn"></span>
+		<span class="nextbtn"></span>
+	</div>
+	
+</div>
+
+<div id="treelayer">
+	<img class="returnbtn" src="img/returnbtn.png"/>
+	<div class="innercon">
+		<div class="giftcellcon flowercon" style="top:35%;"><img class="gift" src="img/flower.png"/></div>
+		<div class="giftcellcon sockcon" style="top:50%;"><img class="gift" src="img/sock.png"/></div>
+		<div class="giftcellcon bearcon" style="top:65%;"><img class="gift" src="img/bear.png"/></div>
+	</div>
+	<img id="treecursor" src="img/cursor.png" style="width:16%;top:40%;right:25%;position:absolute;"/>
+	
+	<img id="giftimg" src="img/transparent.png"/>
+	
+	<div class="returnskip">
+		<span class="returnbtn"></span>
+		<span class="skipbtn"></span>
+	</div>
+	<div class="returncomplete">
+		<span class="returnbtn"></span>
+		<span class="completebtn"></span>
+	</div>
+</div>
+
+<div id="completelayer">
+	<div class="bg"></div>
+	<div class="frontbg"></div>
+	<div class="completecard">
+		<span id="SpanTo" style="width:45%;top:11.6%;" style="text-align:center;"></span>
+		<span id="SpanContent" style="width:45%;top:17%;"></span>
+		<span id="SpanFrom" style="width:45%;top:22%;"></span>
+		<!--<img src="img/tree.png"/>-->
+	</div>
+	
+	<a href="javascript:void(0)" class="coupon"></a>
+	<div class="bar">
+		<span class="preview"></span>
+		<span class="sharecard"></span>
+		<span class="reproduce"></span>
+	</div>
+</div>
+
+<div id="audio_d" class="paly_audio">
+	<span></span>
+	<audio id="audio" src="mp3/sound.mp3" preload="auto" loop />
+</div>
+
+<div id="productslayer"> <img class="closebtn" src="img/returnbtn.png"/>
+	<div class="scroll" style="position:absolute;top:0px;left:0px;z-index:9999;">
+	   
+	    <div id="sl_left" class="arrow_left" ><img src="img/arrow-left.png" /></div>
+	    <div id="sl_right" class="arrow_right" ><img src="img/arrow-right.png" /></div>
+		<div class="slide_01" id="slide_01">
+			<div class="mod_01"><a href="http://godiva360.gis-ad.com/list.html" onclick="_pt_sp_2.push('setTrackEvent,Goumai,Click,shengdanxianliang,0')"  target="_blank"><img src="img/transparent.png" draggable="false"></a></div>
+			<div class="mod_01"><a href="http://godiva360.gis-ad.com/list.html" onclick="_pt_sp_2.push('setTrackEvent,Goumai,Click,shengdansongluxing,0')" target="_blank"><img src="img/transparent.png" draggable="false"></a></div>
+			<div class="mod_01"><a href="http://godiva360.gis-ad.com/list.html" onclick="_pt_sp_2.push('setTrackEvent,Goumai,Click,shengdanjinzhuang,0')" target="_blank"><img src="img/transparent.png" draggable="false"></a></div>
+			<div class="mod_01"><a href="http://godiva360.gis-ad.com/list.html" onclick="_pt_sp_2.push('setTrackEvent,Goumai,Click,shengdanxiaoxiong,0')" target="_blank"><img src="img/transparent.png" draggable="false"></a></div>
+		</div>
+		<div class="dotModule_new">
+			<div id="slide_01_dot"></div>
+		</div>
+	</div>
+</div>
+
+<div id="campaigninfo">
+		<img class="returnbtn" src="img/returnbtn.png"/>
+		<div class="infocon" id="wrapper"></div>
+		<div class="arrowcon"></div>
+		
+</div>
+
+<div id="couponcon">
+	<img class="couponimg" src="img/coupon.png"/>
+	<img class="returnbtn" src="img/returnbtn.png" />
+	<a id="couponlink"  href="http://m.godiva.cn/kvActivity/activity_cmas.htm" target="_blank" onclick="_pt_sp_2.push('setTrackEvent,Goumai,Click,youhuijuan,0')" style="position:absolute;width:40%;left:30%;height:40px;display:none;"></a>
+</div>
+
+<!--
+<div id="" style="width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:999;"></div>
+-->
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/exif.js"></script>
+<script type="text/javascript" src="js/jpeg_encoder_basic.js"></script>
+<script type="text/javascript" src="js/LocalResizeIMG.js"></script>
+<script type="text/javascript" src="js/paramarray.js"></script>
+<script type="text/javascript" src="js/iscroll.js"></script>
+<script type="text/javascript" src="js/jgestures.min.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript" src="js/pano.js"></script>
+<script type="text/javascript">
+	var screenw=window.screen.height;
+	var screenh=window.screen.width;
+	var whrate=screenw/screenh;
+	var script=document.createElement("script");
+	script.type="text/javascript";
+	if(navigator.appVersion.toLowerCase().indexOf("ipad")>0){
+		script.src="js/ipad.js";
+		$(script).appendTo($(document.body));
+	}else{
+		if(whrate>900/640 || whrate <640/900){
+			script.src="js/index.js";
+			$(script).appendTo($(document.body));
+		}else{
+			script.src="js/iphone4.js";
+			$(script).appendTo($(document.body));
+		}
+	}
+</script>
+<script type="text/javascript">
+	  window._pt_lt = new Date().getTime();
+	  window._pt_sp_2 = [];
+	  _pt_sp_2.push('setAccount,7cdeb647');
+	  var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	  
+	  (function() {
+		var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
+		atag.src = _protocol + 'js.ptengine.cn/js/pta.js';
+		var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true;
+		stag.src = _protocol + 'js.ptengine.cn/js/pts.js';
+		var s = document.getElementsByTagName('script')[0]; 
+		s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s);
+	  })();
+</script>
+<!--<script type="text/javascript" src="js/index.js"></script>-->
+
+</body>
+</html>

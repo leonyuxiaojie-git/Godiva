@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>GODIVA 歌帝梵</title>
+    <style type="text/css">
+        *{margin: 0px; padding:0px;}
+        html,body{ padding:0px; margin:auto; background:#000;}
+        #wrapper{width: 1024px; margin: 0px auto;}
+    </style>
+    <script type="text/javascript">
+    	var userAgentInfo = navigator.userAgent;  
+        var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPod");  
+        var flag = true;  
+        for (var v = 0; v < Agents.length; v++) { 
+           if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }  
+        }
+        if(flag==false){
+        	location.href="mobile.html";
+        }else{
+        	
+        	if(userAgentInfo.indexOf("iPad")>0){
+        		location.href="pad.html";
+        	}
+        }
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <a href="http://www.godiva.cn" target="_blank"> <img src="img/pc_index.jpg" /> </a>
+    </div>
+<script type="text/javascript">
+    window._pt_lt = new Date().getTime();
+    window._pt_sp_2 = [];
+    _pt_sp_2.push('setAccount,7cdeb647');
+    var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+
+    (function() {
+        var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
+        atag.src = _protocol + 'js.ptengine.cn/js/pta.js';
+        var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true;
+        stag.src = _protocol + 'js.ptengine.cn/js/pts.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s);
+    })();
+</script>
+</body>
+</html>

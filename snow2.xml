@@ -1,0 +1,21 @@
+<snow onstart="randomizehorizon();">
+	<progress showwait="none" showload="none" />
+	<!-- set reduced display quality for faster rendering performance -->
+	<!-- startup view -->
+	<view hlookat="0" vlookat="0" fov="110" fisheye="0.35" fovmax="110" fovmin="90"/>
+	<!--<plugin name="gyro"  url="js/plugins/gyro.js" keep="true" enabled="true" camroll="true" friction="0.5" velastic="0.2" vrelative="false"  onavailable=""/>-->
+	<!-- the snow plugin -->
+	<plugin name="snow" zorder="1" alturl="js/plugins/snow.js" floor="0.7" onloaded="snowflakes();" />
+	<action name="snowflakes">
+		set(plugin[snow].mode,image);
+		set(plugin[snow].imageurl,'%CURRENTXML%/snowflake.png');
+		set(plugin[snow].blendmode,add);
+		set(plugin[snow].flakes,1000);
+		set(plugin[snow].imagescale,0.6);
+		set(plugin[snow].speed,3.0);
+		set(plugin[snow].shake,2.0);
+		set(plugin[snow].speedvariance,1.0);
+		set(plugin[snow].spreading,3.0);
+		set(plugin[snow].wind,6.0);
+	</action>
+</snow>
